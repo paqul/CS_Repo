@@ -27,9 +27,9 @@ namespace HellowWorld
             string name = "Greg ";
             string lastName = "Smith";
             int myIntNum = 127;
-            double myDoubleNum = 3.14;
-            float myFloatNum = 3.14f;
-            long myLongNum = 999999999999999999;
+            double myDoubleNum = 3.14D;
+            float myFloatNum = 3.14F;
+            long myLongNum = 999999999999999999L;
             myIntNum = 12;
             char myCharacter = 'A';
             bool myBool = true;
