@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HellowWorld
 {
@@ -10,8 +6,10 @@ namespace HellowWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
-            Console.ReadKey();
+            System.Console.WriteLine("Hello World\n");
+            System.Console.ReadKey();
+            System.Console.WriteLine("End of the program");
+            System.Console.ReadKey();
         }
     }
 }
