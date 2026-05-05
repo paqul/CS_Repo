@@ -67,6 +67,19 @@ namespace HellowWorld
             int mySecondIntNum = (int)mySecondDoubleNum; // Explicit conversion (casting)
             Console.WriteLine("mySecondDoubleNum: " + mySecondDoubleNum);
             Console.WriteLine("mySecondIntNum: " + mySecondIntNum);
+            
+
+            int intiger = 10;
+            double doubl = 5.25D;
+            bool boolean = true;
+            Console.WriteLine("intiger: " + intiger);
+            Console.WriteLine("doubl: " + doubl);
+            Console.WriteLine("boolean: " + boolean);
+
+            Console.WriteLine(Convert.ToString(intiger));
+            Console.WriteLine(Convert.ToDouble(intiger));
+            Console.WriteLine(Convert.ToInt32(doubl));
+            Console.WriteLine(Convert.ToString(boolean));
             Console.WriteLine("End of Method 3");
         }
     }
