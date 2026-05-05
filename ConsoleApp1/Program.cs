@@ -15,6 +15,7 @@ namespace HellowWorld
             Console.WriteLine("Hello World");
             Method1Types();
             Method2Name();
+            Method3Conversion();
             Console.WriteLine(3 + 3 * 2);
             Console.ReadKey();
             Console.Write("End of the main");
@@ -52,6 +53,21 @@ namespace HellowWorld
             x = y = z = 10;
             Console.WriteLine(x+y+z+myIntNum);
             Console.WriteLine("End of Method 2");
+        }
+
+        static void Method3Conversion()
+        {
+            Console.WriteLine("Method 3");
+            int myIntNum = 4;
+            double myDoubleNum = myIntNum; // Implicit conversion
+            Console.WriteLine("myIntNum: " + myIntNum);
+            Console.WriteLine("myDoubleNum: " + myDoubleNum);
+
+            double mySecondDoubleNum = 3.99974321;
+            int mySecondIntNum = (int)mySecondDoubleNum; // Explicit conversion (casting)
+            Console.WriteLine("mySecondDoubleNum: " + mySecondDoubleNum);
+            Console.WriteLine("mySecondIntNum: " + mySecondIntNum);
+            Console.WriteLine("End of Method 3");
         }
     }
 }
