@@ -10,6 +10,7 @@ namespace ConsoleApp3
             Console.WriteLine("Console App3!");
             Method1Maths(5, 10);
             Method2Strings();
+            Method3Math();
             Console.ReadKey();
         }
 
@@ -27,6 +28,20 @@ namespace ConsoleApp3
             string text = "Some text to work with it";
             Console.WriteLine(text);
             Console.WriteLine("And this is length of the text: " + text.Length + "\n");
+
+        }
+
+        static void Method3Math()
+        {
+            float a = 4.95f;
+            double b = 9.21;
+            Console.WriteLine("Maths again!");
+            Console.WriteLine("Pi: " + Math.PI);
+            Console.WriteLine("E: " + Math.E);
+            Console.WriteLine("float 4,95: " + Math.Round(a));
+            Console.WriteLine("double 9,21: " + Math.Round(b));
+            Console.WriteLine("Absolute of -5: " + Math.Abs(-5));
+            Console.WriteLine("Absolute of 20: " + Math.Abs(20));
 
         }
     }
