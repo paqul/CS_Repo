@@ -26,8 +26,16 @@ namespace ConsoleApp3
         {
             Console.WriteLine("Strings!");
             string text = "Some text to work with it";
+            string txt = "We are the so-called \"Vikings\" from the north.";
+            string txt2 = "It\'s alright.";
+            string txt3 = "The character \\ is called backslash.";
             Console.WriteLine(text);
             Console.WriteLine("And this is length of the text: " + text.Length + "\n");
+            Console.WriteLine(text.ToUpper());
+            Console.WriteLine(text.ToLower());
+            Console.WriteLine(txt);
+            Console.WriteLine(txt2);
+            Console.WriteLine(txt3);
 
         }
 
