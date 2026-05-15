@@ -19,6 +19,7 @@ namespace ConsoleApp3
             Method8SwitchStatement(5);
             Method8SwitchStatement(1);
             Method8SwitchStatement(7);
+            Method10LoopFirst();
             Console.ReadKey();
         }
 
@@ -176,6 +177,15 @@ namespace ConsoleApp3
                 case 3:
                     Console.WriteLine("Three");
                     break;
+            }
+        }
+
+        public static void Method10LoopFirst()
+        {
+            Console.WriteLine("\nLoop first for");
+            for (int i=0; i<15; i++)
+            {
+                Console.WriteLine(i);
             }
         }
     }
